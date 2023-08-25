@@ -2,3 +2,9 @@
     --accent: #FE562D;
     --accent-bg: #FFE6DF;
 }
+
+@media (prefers-color-scheme:dark) {
+    :root {
+        --accent-bg: #201E40;
+    }
+}
