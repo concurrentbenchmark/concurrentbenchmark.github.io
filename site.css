@@ -1,3 +1,11 @@
+/* Use Atkinson hyperlegible as the font by default */
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
 :root {
     --accent: #FE562D;
     --accent-bg: #FFE6DF;
