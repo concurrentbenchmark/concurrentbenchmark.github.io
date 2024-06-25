@@ -6,6 +6,16 @@ body {
     font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
+h1 > a {
+    text-decoration-line: none;
+    color: var(--text);
+}
+
+h1 > a:visited {
+    text-decoration-line: none;
+    color: var(--text);
+}
+
 :root {
     --accent: #FE562D;
     --accent-bg: #FFE6DF;

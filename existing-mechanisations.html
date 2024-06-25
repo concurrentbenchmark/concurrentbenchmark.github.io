@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="site.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Existing Mechanisations - The Concurrent Calculi Formalisation Benchmark</title>
+  </head>
+  <body>
+      <header>
+      <h1><a href="index.html">The Concurrent Calculi Formalisation Benchmark</a></h1>
+      <!-- <img src="images/benchmark.jpeg" alt="A logo with the three challenge problems." width="10%"/> -->
+    </header>
+  <main>
+    <h2>Existing Mechanisations</h2>
+    This is a list of existing mechanisations of concurrent calculi that might be useful as inspiration for your solutions to the benchmark.
+    It is partially based on <a href="https://why-lambda.blogspot.com/2015/04/mechanized-formalizations-of-pi.html">James Cheney's list</a>.
+    If you know of a mechanisation that is relevant, but not on the list, please contact us so we can add it.
+    <table>
+      <thead>
+	<tr>
+	  <th scope="col">Authors</th>
+	  <th scope="col">Title</th>
+	  <th scope="col">Proof assistant</th>
+	  <th scope="col">Links</th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Dawit Tirore, Jesper Bengtson &amp; Marco Carbone</td>
+	  <td>A Sound and Complete Projection for Global Types</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.4230/LIPIcs.ITP.2023.28">Paper</a>, <a href="https://github.com/Tirore96/projection">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Luís Cruz-Filipe, Fabrizio Montesi &amp; Marco Peressotti</td>
+	  <td>Certifying Choreography Compilation</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1007/978-3-030-85315-0_8">Paper</a>, <a href="https://zenodo.org/doi/10.5281/zenodo.4479101">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Johannes Åman Pohjola, Alejandro Gómez-Londoño, James Shaker &amp; Michael Norrish</td>
+	  <td>Kalas: A verified, end-to-end compiler for a choreographic language</td>
+	  <td>HOL4</td>
+	  <td><a href="https://doi.org/10.4230/LIPIcs.ITP.2022.27">Paper</a>, <a href="https://github.com/CakeML/choreo/">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Joseph Tassarotti, Ralf Jung &amp; Robert Harper</td>
+	  <td>A higher-order logic for concurrent termination-preserving refinement</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1007/978-3-662-54434-1_34">Paper</a>, <a href="https://cs.nyu.edu/~jt4767/papers/iris-refinement/index.html">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Peter Thiemann</td>
+	  <td>Intrinsically-typed mechanized semantics for session types</td>
+	  <td>Agda</td>
+	  <td><a href="https://doi.org/10.1145/3354166.3354184">Paper</a>, <a href="https://github.com/peterthiemann/definitional-session">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Matthew Goto, Radha Jagadeesan, Alan Jeffrey, Corin Pitcher &amp; James Riely</td>
+	  <td>An extensible approach to session polymorphism</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1017/S0960129514000231">Paper</a>, <a href="http://fpl.cs.depaul.edu/projects/xpol/coq-implementation.html">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Reynald Affelt &amp; Naoki Kobayashi</td>
+	  <td>A Coq library for verification of concurrent programs</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1016/j.entcs.2007.11.010">Paper</a>, <a href="https://staff.aist.go.jp/reynald.affeldt/applpi/">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Furio Honsell, Marino Miculan &amp; Ivan Scagnetto</td>
+	  <td>π-calculus in (co)inductive-type theory</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1016/S0304-3975(00)00095-5">Paper</a>, <a href="https://users.dimi.uniud.it/~ivan.scagnetto/pi-calculus.html">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Daniel Hirschkoff</td>
+	  <td>A full formalisation of π-calculus theory in the calculus of constructions</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1007/BFb0028392">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Tom Melham</td>
+	  <td>A mechanized theory of the π-calculus in HOL</td>
+	  <td>HOL</td>
+	  <td><a href="https://doi.org/10.48456/tr-244">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Otmaine Aït Mohamed</td>
+	  <td>Mechanizing a π-calculus equivalence in HOL</td>
+	  <td>HOL</td>
+	  <td><a href="https://doi.org/10.1007/3-540-60275-5_53">Paper</a>, <a href="https://inria.hal.science/inria-00074263">Description of mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Christine Röckl &amp; Daniel Hirschkoff</td>
+	  <td>A fully adequate shallow embedding of the π-calculus in Isabelle/HOL with mechanized syntax analysis</td>
+	  <td>Isabelle/HOL</td>
+	  <td><a href="https://doi.org/10.1017/S0956796802004653">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Christine Röckl, Daniel Hirschkoff &amp; Stefan Berghofer</td>
+	  <td>Higher-order abstract syntax with induction in Isabelle/HOL: Formalizing the π-calculus and mechanizing the theory of contexts</td>
+	  <td>Isabelle/HOL</td>
+	  <td><a href="https://doi.org/10.1007/3-540-45315-6_24">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Loïc Henry-Gréard</td>
+	  <td>Proof of the Subject Reduction Property for a Pi-Calculus in Coq</td>
+	  <td>Coq</td>
+	  <td><a href="https://inria.hal.science/inria-00072970">Paper</a>, <a href="http://www-sop.inria.fr/meije/personnel/Loic.Henry-Greard/param_pi.tar.gz">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Andrew D. Gordon &amp; Tom Melham</td>
+	  <td>Five axioms of alpha-conversion</td>
+	  <td>HOL</td>
+	  <td><a href="https://doi.org/10.1007/BFb0105404">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Simon J. Gay</td>
+	  <td>A Framework for the Formalisation of Pi Calculus Type Systems in Isabelle/HOL</td>
+	  <td>Isabelle/HOL</td>
+	  <td><a href="https://doi.org/10.1007/3-540-44755-5_16">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Joëlle Despeyroux</td>
+	  <td>A Higher-Order Specification of the π-Calculus</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1007/3-540-44929-9_30">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Guillaume Gillard</td>
+	  <td>A Formalization of a Concurrent Object Calculus up to α-Conversion</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1007/10721959_33">Paper</a>, <a href="ftp://ftp-sop.inria.fr/certilab/Guillaume.Gillard/Conc-Sigma_Calculus.tar.gz">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Roly Perera &amp; James Cheney</td>
+	  <td>Proof-relevant π-calculus: a constructive account of concurrency and causality</td>
+	  <td>Agda</td>
+	  <td><a href="https://doi.org/10.1017/S096012951700010X">Paper</a>, <a href="https://github.com/rolyp/proof-relevant-pi">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Alwen Tiu &amp; Dale Miller</td>
+	  <td>Proof search specifications of bisimulation and modal logics for the π-calculus</td>
+	  <td>Abella</td>
+	  <td><a href="https://doi.org/10.1145/1656242.1656248">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Kaustuv Chaudhuri, Matteo Cimini &amp; Dale Miller</td>
+	  <td>A Lightweight Formalization of the Metatheory of Bisimulation-Up-To</td>
+	  <td>Abella</td>
+	  <td><a href="https://doi.org/10.1145/2676724.2693170">Paper</a>, <a href="https://abella-prover.org/upto/">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Iliano Cervesato, Frank Pfenning, David Walker &amp; Kevin Watkins</td>
+	  <td>A Concurrent Logical Framework II: Examples and Applications</td>
+	  <td>CLF</td>
+	  <td><a href="https://www.cs.princeton.edu/~dpw/papers/CMU-CS-02-102.pdf">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Jesper Bengtson &amp; Joachim Parrow</td>
+	  <td>Formalising the pi-calculus using nominal logic</td>
+	  <td>Isabelle/HOL</td>
+	  <td><a href="https://doi.org/10.2168/LMCS-5(2:16)2009">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Dominic Orchard &amp; Nobuko Yoshida</td>
+	  <td>Using session types as an effect system</td>
+	  <td>Agda</td>
+	  <td><a href="https://doi.org/10.4204/EPTCS.203.1">Paper</a>, <a href="https://github.com/dorchard/effects-as-sessions">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Luca Ciccone &amp; Luca Padovani</td>
+	  <td>A dependently typed linear π-calculus in Agda</td>
+	  <td>Agda</td>
+	  <td><a href="https://doi.org/10.1145/3414080.3414109">Paper</a>, <a href="https://gitlab.di.unito.it/luca.padovani/DependentLinearPi">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>David Castro, Francisco Ferreira &amp; Nobuko Yoshida</td>
+	  <td>EMTST: Engineering the meta-theory of session types</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1007/978-3-030-45237-7_17">Paper</a>, <a href="https://github.com/emtst/emtst-proof">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Uma Zalakain</td>
+	  <td>Type-checking session-typed π-calculus with Coq</td>
+	  <td>Coq</td>
+	  <td><a href="https://umazalakain.info/static/Z19/msc-thesis.pdf">Paper</a>, <a href="https://github.com/umazalakain/session-types-coq/">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Adam Michael Petz</td>
+	  <td>A Semantics for Attestation Protocols using Session Types in Coq</td>
+	  <td>Coq</td>
+	  <td><a href="http://hdl.handle.net/1808/24137">Paper</a>, <a href="https://github.com/armoredsoftware/session">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Guillaume Ambal, Sergueï Lenglet &amp; Alan Schmitt</td>
+	  <td>HOπ in Coq</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1007/s10817-020-09553-0">Paper</a>, <a href="https://passivation.inria.fr/hopi/">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Peter Brottveit Bock, Agata Murawska, Alessandro Bruni &amp; Carsten Schürmann</td>
+	  <td>Representing Session Types</td>
+	  <td>Celf</td>
+	  <td><a href="http://www.lsv.fr/~baelde/dale-fest/bock-etal.pdf">Paper</a> (mechanisation in appendix)</td>
+	</tr>
+	<tr>
+	  <td>Hongwei Xi, Zhiqiang Ren, Hanwen Wu &amp; William Blair</td>
+	  <td>Session Types in a Linearly Typed Multi-Threaded Lambda-Calculus</td>
+	  <td>ATS</td>
+	  <td><a href="https://doi.org/10.48550/arXiv.1603.03727">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Andrew K. Hirsch &amp; Deepak Garg</td>
+	  <td>Pirouette: higher-order typed functional choreographies</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1145/3498684">Paper</a>, <a href="https://doi.org/10.5281/zenodo.5586354">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Luís Cruz-Filipe, Fabrizio Montesi &amp; Marco Peressotti</td>
+	  <td>Formalising a Turing-Complete Choreographic Language in Coq</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.4230/LIPIcs.ITP.2021.15">Paper</a>, <a href="https://doi.org/10.5281/zenodo.4479102">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Petar Maksimović &amp; Alan Schmitt</td>
+	  <td>HOCore in Coq</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1007/978-3-319-22102-1_19">Paper</a>, <a href="http://people.rennes.inria.fr/Alan.Schmitt/research/hocore/">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Joachim Parrow, Johannes Borgström, Palle Raabjerg &amp; Johannes Åman Pohjola</td>
+	  <td>Higher-order psi-calculi</td>
+	  <td>Isabelle/HOL</td>
+	  <td><a href="https://doi.org/10.1017/S0960129513000170">Paper</a>, <a href="http://www.it.uu.se/research/group/mobility/theorem/hopsi.tar.gz">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Jesper Bengtson, Joachim Parrow &amp; Tjark Weber</td>
+	  <td>Psi-Calculi in Isabelle</td>
+	  <td>Isabelle/HOL</td>
+	  <td><a href="https://doi.org/10.1007/s10817-015-9336-2">Paper</a>, <a href="https://www.isa-afp.org/entries/Psi_Calculi.html">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Temesghen Kahsai &amp; Marino Miculan</td>
+	  <td>Implementing Spi Calculus Using Nominal Techniques</td>
+	  <td>Isabelle/HOL</td>
+	  <td><a href="https://doi.org/10.1007/978-3-540-69407-6_33">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>David Castro-Perez, Francisco Ferreira, Lorenzo Gheri &amp; Nobuko Yoshida</td>
+	  <td>Zooid: a DSL for certified multiparty computation</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1145/3453483.3454041">Paper</a>, <a href="https://doi.org/10.5281/zenodo.4681027">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Simon J. Gay, Peter Thiemann &amp; Vasco T. Vasconcelos</td>
+	  <td>Duality of Session Types: The Final Cut</td>
+	  <td>Agda</td>
+	  <td><a href="https://doi.org/10.4204/EPTCS.314.3">Paper</a>, <a href="https://github.com/peterthiemann/dual-session">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Edwin Brady</td>
+	  <td>Type-driven development of concurrent communicating systems</td>
+	  <td>Idris</td>
+	  <td><a href="https://doi.org/10.7494/csci.2017.18.3.1413">Paper</a>, <a href="https://github.com/edwinb/ConcIO">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Jonas Kastberg Hinrichsen, Jesper Bengtson &amp; Robbert Krebbers</td>
+	  <td>Actris: session-type based reasoning in separation logic</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1145/3371074">Paper</a>, <a href="https://doi.org/10.1145/3373096">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Ilya Sergey, James R. Wilcox, and Zachary Tatlock</td>
+	  <td>Programming and proving with distributed protocols</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1145/3158116">Paper</a>, <a href="https://github.com/DistributedComponents/disel">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Uma Zalakain &amp; Ornela Dardha</td>
+	  <td>π with leftovers: A mechanisation in Agda</td>
+	  <td>Agda</td>
+	  <td><a href="https://doi.org/10.1007/978-3-030-78089-0_9">Paper</a>, <a href="https://github.com/umazalakain/typing-linear-pi">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Christine Röckl</td>
+	  <td>A First-Order Syntax for the π-Calculus in Isabelle/HOL using Permutations</td>
+	  <td>Isabelle/HOL</td>
+	  <td><a href="https://doi.org/10.1016/S1571-0661(04)00276-2">Paper</a></td>
+	</tr>
+	<tr>
+	  <td>Ivan Scagnetto &amp; Marino Miculan</td>
+	  <td>Ambient Calculus and its Logic in the Calculus of Inductive Constructions</td>
+	  <td>Coq</td>
+	  <td><a href="https://doi.org/10.1016/S1571-0661(04)80507-3">Paper</a>, <a href="https://users.dimi.uniud.it/~ivan.scagnetto/lfm2002.html">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Johannes Borgström, Shuqin Huang, Magnus Johansson, Palle Raabjerg, Björn Victor, Johannes Åman Pohjola &amp; Joachim Parrow</td>
+	  <td>Broadcast psi-calculi with an application to wireless protocols</td>
+	  <td>Isabelle/HOL</td>
+	  <td><a href="https://doi.org/10.1007/s10270-013-0375-z">Paper</a>, <a href="https://www.isa-afp.org/entries/Broadcast_Psi.html">Mechanisation</a></td>
+	</tr>
+	<tr>
+	  <td>Jesper Bengtson &amp; Joachim Parrow</td>
+	  <td>A Completeness Proof for Bisimulation in the pi-calculus Using Isabelle</td>
+	  <td>Isabelle/HOL</td>
+	  <td><a href="https://doi.org/10.1016/j.entcs.2007.08.017">Paper</a>, <a href="https://www.isa-afp.org/entries/Pi_Calculus.html">Mechanisation</a></td>
+	</tr>
+      </tbody>
+    </table>
+</main>
+<footer>
+  </hr>
+  <img src="images/concurrencybenchmark-qrcode.png" alt="qr code for: https://concurrentbenchmark.github.io/ " width="10%"/>
+    This page is, of course, under construction.
+    <img src="images/underconstruction.gif" alt="90's style under construction gif"/>
+</footer>
+  </body>
+</html>
